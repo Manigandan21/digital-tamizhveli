@@ -43,7 +43,17 @@ ol, ul {
     top: 10px;
     height: 5vh;
 }
-
+.logo-whatapp-button{
+	width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+.logo-main{
+	width: 30px !important;
+    position: absolute;
+	margin-left: 10px;
+    vertical-align: middle;
+}
 blockquote, q {
 	quotes: none;
 }
