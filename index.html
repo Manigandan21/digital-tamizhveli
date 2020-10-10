@@ -62,14 +62,26 @@
 										<a target="_blank" href="https://wa.me/+919094005600"><span>Catalogue <img class="logo-main" src="images/icons-whatsapp.svg"></span></a>
 									</header> 
 								</article>
+								<div style="width: 100%;border: 1px solid grey;margin: 5px 0px;"></div>
 								<article style="height: 10vh;">
 									<header class="major">
 										<a target="_blank" href="upi://pay?pa=9094005600@upi&pn=TamizhVeli&mc=0000&tn=Pay%20to%20TamizhVeli&cu=INR"><span>Digital payment <img class="logo-main" src="images/icons-bhim-upi.png"></span></a>
 									</header>
 								</article>
-								<article style="height: 10vh;">
+								<article class="account-header" style="height: 10vh;z-index: 105" onclick="showSummary();">
 									<header class="major">
 										Account details
+									</header>
+								</article>
+							</section>
+							<section id="two" class="tiles">
+								<div id="opacity-bg"></div>
+								<article id="account-summary" class="bank-detail">
+									<header class="major" style="display:inline-table;">
+										Account No: 426410254 <br>
+										Bank: Indian Bank <br>
+										Branch: Teynampet <br>
+										IFSC Code: IDIB000T011 <br>
 									</header>
 								</article>
 							</section>
@@ -136,6 +148,20 @@ function showSlides() {
 }
 var slideIndex = 0;
 showSlides();
+
+function showSummary() {
+	  var x = document.getElementById("account-summary");
+	  var y = document.getElementById("opacity-bg");
+	  if (x.style.display === "none") {
+		x.style.display = "flex";
+		y.style.display = "flex";
+	  } else {
+		x.style.display = "none";
+		y.style.display = "none";
+	  }
+}
+document.getElementById("account-summary").style.display = 'none'
+document.getElementById("opacity-bg").style.display = 'none'
 
 </script>
 		<!-- Scripts -->

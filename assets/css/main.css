@@ -4019,3 +4019,25 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+		
+		
+article.bank-detail{
+	height: 16vh;
+    width: 100% !important;
+    display: flex;
+    font-size: 15px;
+    margin-top: 10px;
+	z-index: 101;
+}
+#opacity-bg{
+	opacity: 1;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.4;
+    z-index: 100;
+    height: auto;
+}
