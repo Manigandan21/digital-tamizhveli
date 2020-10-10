@@ -65,6 +65,30 @@ ol, ul {
   .text {font-size: 11px}
 }
 
+@media screen and (max-width: 1280px) {
+	.slide-img{
+		height: 395px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.slide-img{
+		height: 415px;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.slide-img{
+		height: 340px;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	.slide-img{
+		height: 270px;
+	}
+}
+
 .logo-tamil{
 	position: fixed;
     z-index: 100;
@@ -163,7 +187,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: cursive;
 		font-size: 17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
@@ -1827,15 +1851,6 @@ input, select, textarea {
 			margin-bottom: 0;
 			width: calc(100% + 0.5em);
 		}
-
-			header.major > :first-child:after {
-				content: '';
-				background-color: #ffffff;
-				display: block;
-				height: 2px;
-				margin: 0.325em 0 0.5em 0;
-				width: 100%;
-			}
 
 		header.major > p {
 			font-size: 0.7em;
